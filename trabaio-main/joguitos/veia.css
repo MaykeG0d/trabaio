@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+:root{
+    --fundo: #202124;
+    --tamanhoQuadrado: 100px;
+    --letraTamanho: calc(var(--tamanhoQuadrado)*0.9)
+}
+
+.cabeça{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 0 64px 0;
+    text-align: center;
+}
+
+.veia{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    grid-template-columns: repeat(3, auto);
+    color: white;
+}
+
+
+
+.quadrado{
+    width: var(--tamanhoQuadrado);
+    height: var(--tamanhoQuadrado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px white solid;
+    font-size: var(--letraTamanho);
+}
+.board.x .quadrado:not(.x):not(.o):hover::before,
+.board.x .quadrado:not(.x):not(.o):hover::after,
+.quadrado.x ::before,
+.quadrado.x ::after{
+    content: " ";
+    width: calc(var(--letraTamanho)*0.15);
+    height: var(--letraTamanho);
+
+}
+
+.board.o .quadrado:not(.o):not(.x):hover::before,
+.board.o .quadrado:not(.o):not(.x):hover::after,
+.quadrado.o ::before,
+.quadrado.o ::after{
+    content: " ";
+    width: calc(var(--letraTamanho)*0.15);
+    height: var(--letraTamanho);
+
+}
+
+.veia.o .quadrado:not(.x):not(.o):hover::before,
+.quadrado.o::before {
+  width: calc(var(--mark-size) * 0.9);
+  height: calc(var(--mark-size) * 0.9);
+}
+
+.board.o .cell:not(.x):not(.o):hover::after,
+.cell.o::after {
+  width: calc(var(--mark-size) * 0.6);
+  height: calc(var(--mark-size) * 0.6);
+
+  background-color: var(--background);
+}
+
+.fimDeJogo{
+    font-size: 24px;
+    background-color: var(--fundo);
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 8px;
+  }
+
+  .fimDeJogo button:hover {
+    filter: brightness(130%);
+  }
+  
+  .fimDeJogo.show {
+    display: flex;
+  }
