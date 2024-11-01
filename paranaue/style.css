@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.cabecalho{
+    background: linear-gradient(to right, rgb(0, 0, 163), rgb(2, 2, 77));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 1%;
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 40px;
+    position: absolute;
+    z-index: 1;
+}
+
+.escrever{
+    border-radius: 40px;
+    padding: 3px;
+    font-size: 16px;
+    border: black solid 5px;
+}
+
+.formiga{
+    width: 100%;
+    height: 100px;
+}
+
+.backgroundconfia{
+    background: #00ccff;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 1;
+}
+
+.imagemfundo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.categorias{
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botao{
+    width:  150px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 0px 10px 0px 250px;
+}
+
+.botao:hover{
+    background-color: #00ccffcb;
+}
+
+.botao.ativo{
+    background-color: #00ccff;
+}
+
+.cifrao{
+    width: 30px;
+
+}
+
+.etiq{
+    width: 30px;
+    margin: 0px 5px 0px 0px;
+    height: 30px;
+}
+
+.coisas{
+    display: flex;
+    align-items: center;
+}
+
+.baixo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.abner{
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: 50px 0px 0px 120px;
+    width: 400px;
+    background-color: #00ccff;
+    padding: 0px 0px 150px 0px;
+    position: absolute;
+    
+}
+
+.abnerum{
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: 50px 0px 0px 750px;
+    width: 400px;
+    background-color: #00ccff;
+    padding: 0px 0px 150px 0px;
+    position: absolute;
+    
+}
+
+.abnerdo{
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: 50px 0px 0px 1350px;
+    width: 400px;
+    background-color: #00ccff;
+    padding: 0px 0px 150px 0px;
+    position: absolute;
+    
+}
+
+.titulodo{
+    position: relative;
+    margin: 290px 0px 5px 1380px;
+    color: black;
+    font-weight: 500;
+}
+.tituloum{
+    position: relative;
+    margin: 290px 0px 5px 780px;
+    color: black;
+    font-weight: 500;
+}
+
+.inscrevaum{
+    position: relative;
+    margin: 10px 0px 5px 885px;
+    background-color: rgb(0, 230, 0);
+    border: solid black;
+}
+
+.inscrevado{
+    position: relative;
+    margin: 10px 0px 5px 1480px;
+    background-color: rgb(0, 230, 0);
+    border: solid black;
+}
+
+.shimdo{
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+}
+.shimum{
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+}
+.baixodo{
+    position: relative;
+    margin: 30px 0px 0px 1350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.baixoum{
+    position: relative;
+    margin: 30px 0px 0px 750px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shim{
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+}
+
+.titulo{
+    position: relative;
+    margin: 290px 0px 5px 140px;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+.inscreva{
+    position: relative;
+    margin: 15px 0px 5px 250px;
+    background-color: rgb(0, 230, 0);
+    border: solid black;
+}
+
+
+
+.baixo{
+    position: relative;
+    margin: 20px 0px 0px 100px;
+}
+
